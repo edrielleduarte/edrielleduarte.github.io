@@ -92,10 +92,10 @@ header .max-width .nav-list li a::after {
     linear,
     right top,
     left top,
-    from(#6610f2),
+    from(#d0f210),
     to(#17161d)
   );
-  background: linear-gradient(270deg, #6610f2 0%, #17161d 100%);
+  background: linear-gradient(270deg, #b6f210 0%, #17161d 100%);
   -webkit-transform-origin: bottom right;
   transform-origin: bottom right;
   -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
@@ -340,7 +340,7 @@ main {
 }
 
 .btn-green:hover {
-  background: rgb(128, 124, 124);
+  background: #807c7c;
 }
 
 .btn-green:active {
@@ -354,6 +354,7 @@ main {
   flex-direction: row;
   align-items: center;
 }
+
 .contato {
   background-color: black;
   color: #fff;
@@ -392,13 +393,13 @@ main {
 }
 @keyframes float {
   0% {
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateX(-30px);
   }
   100% {
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
 }
 
@@ -508,7 +509,7 @@ main {
 }
 
 .icons a {
-  color: white;
+  color: #fff;
 }
 
 .icons:hover {
@@ -522,7 +523,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #2d31ff, #2d31ff);
+  background: linear-gradient(to left, #eaff2d, #2d31ff);
   z-index: -1;
   border-radius: 50%;
   transform: translate(100%, 100%);
@@ -555,7 +556,7 @@ main {
   }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 768px) {
   .container-primary--logo img {
     display: none;
   }

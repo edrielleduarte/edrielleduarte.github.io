@@ -214,6 +214,11 @@ template {
   align-items: center;
 }
 
+.card:hover{
+  width: 450px;
+  height: 250px;
+  background: #413d3d81;
+}
 .skills {
   width: 100px;
   height: 100px;
